@@ -1,0 +1,79 @@
+/* GENERALES */
+.navbar {
+    height: 100px;
+}
+
+.navbar-brand{
+    margin-left: 50px;
+}
+
+.hero {
+    
+    background-color: rgb(232, 236, 239);
+}
+
+button {
+    border: none !important;
+    background-color: rgb(24, 162, 183) !important;
+}
+
+.buscar {margin-right: 50px; }
+form button {color: white !important;}
+
+.navbar-toggler{
+background-color: transparent !important;
+margin-right: 50px;}
+
+footer {
+    height: 100px;
+    background-color: rgb(24, 162, 183) !important;
+    color: white;
+}
+
+.carousel-indicators button{
+    border: solid 1px white;
+    background-color: white !important;
+    margin-left: 4px;
+}
+
+.carousel-control-prev, .carousel-control-next{
+    background-color: transparent !important;
+    border: none !important;
+}
+
+/* CONTACTO */
+.form-check{
+    color: GRAY;
+}
+
+.bread{ 
+height: 40px;
+margin-top: 100px;
+text-align: center;
+font-size:12px;
+background-color: rgb(232, 236, 239);}
+
+.pagination>li.active>a {
+    border:solid 1px  rgb(24, 162, 183) !important;
+    background-color: rgb(24, 162, 183) !important;
+}
+
+.pagination>li>a {
+   color: black;
+}
+
+/* TABLAS */
+table td,
+table th {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+
+
+
+.card {
+  border-radius: .5rem;
+}
+

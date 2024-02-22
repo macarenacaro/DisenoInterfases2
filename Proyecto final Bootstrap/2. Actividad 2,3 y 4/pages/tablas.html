@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!--LINK PARA CARROUSEL-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <link rel="StyleSheet" href="../css/style.css" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+</head>
+<style></style>
+<html>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
+    <div class="container fixed-top mt-lg-0 mt-md-4 mt-sm-4">
+      <a class="navbar-brand" href="../index.html">
+        <img src="../img/ENIUN.png" height="40" class="d-inline-block align-top mt-2" alt="">
+      </a>
+
+      <button class="navbar-toggler border " type="button" data-toggle="collapse" data-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse p-lg-3 p-md-4 p-sm-4 mt-3 bg-light" id="navbarText">
+
+        <ul class="navbar-nav mr-auto flex-grow-1">
+          <li class="nav-item">
+            <a class="nav-link active" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown" href="#" role="button"
+              aria-expanded="false">Servicios</a>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <li><a class="dropdown-item" href="#">SEO</a></li>
+              <hr class="dropdown-divider">
+              <li><a class="dropdown-item" href="#">Desarrollo Web</a></li>
+              <hr class="dropdown-divider">
+              <li><a class="dropdown-item" href="#">Marketing Online</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tablas.html">Tablas</a>
+          </li>
+        </ul>
+
+        <form class="d-flex flex-row buscar">
+          <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
+          <button class="btn btn-outline-success my-2 my-sm-0 mx-2" type="submit">Buscar</button>
+        </form>
+      </div>
+
+    </div>
+  </nav>
+
+
+  <div class="bread d-flex align-items-center" aria-label="breadcrumb">
+    <ol class="breadcrumb mt-3 mx-5">
+      <li class="breadcrumb-item"><a href="../index.html">Inicio</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Tablas</li>
+    </ol>
+  </div>
+  <div class="container mt-5 p-3">
+    <h1>Tablas</h1>
+
+
+
+
+
+
+    <div class="row justify-content-center mt-5">
+      <div class="col-12">
+        <div class="card" style="background-color: rgb(232, 236, 239);">
+          <div class="card-body">
+
+            <div class="table-responsive">
+
+
+              <table class="table">
+                <thead class="table-dark">
+                  <tr>
+                    <th scope="col"></th>
+                    <th scope="col">EMPLEADO</th>
+                    <th scope="col">POSICIÓN</th>
+                    <th scope="col">EDAD</th>
+                    <th scope="col">DIRECCIÓN</th>
+                    <th scope="col">ESTADO</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="table-primary">
+                    <th scope="row">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1" checked />
+                      </div>
+                    </th>
+                    <td>Macarena Caro</td>
+                    <td>Diseñadora Industrial</td>
+                    <td>30</td>
+                    <td>Alicante</td>
+                    <td>
+                      <button type="button" class="btn btn-danger btn-sm px-3">
+                        <i class="fa fa-check"></i>
+                      </button>
+                    </td>
+                  </tr>
+                  <tr class="table-primary">
+                    <th scope="row">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2" />
+                      </div>
+                    </th>
+                    <td>Clara Roch</td>
+                    <td>Desarrolladora Web</td>
+                    <td>19</td>
+                    <td>Alicante</td>
+                    <td>
+                      <button type="button" class="btn btn-danger btn-sm px-3">
+                        <i class="fa fa-check"></i>
+                      </button>
+                    </td>
+                  </tr>
+                  <tr class="table-danger">
+                    <th scope="row">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3" checked />
+                      </div>
+                    </th>
+                    <td>Carmen Cortes</td>
+                    <td>Secretaria</td>
+                    <td>30</td>
+                    <td>Barcelona</td>
+                    <td>
+                      <button type="button" class="btn btn-danger btn-sm px-3">
+                        <i class="fas fa-times"></i>
+                      </button>
+                    </td>
+                  </tr>
+                  <tr class="table-success">
+                    <th scope="row">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4" checked />
+                      </div>
+                    </th>
+                    <td>Carla Ramirez</td>
+                    <td>Abogada</td>
+                    <td>22</td>
+                    <td>Madrid</td>
+                    <td>
+                      <button type="button" class="btn btn-danger btn-sm px-3">
+                        <i class="fa fa-ellipsis-h"></i>
+                      </button>
+                    </td>
+                  </tr>
+                  <tr class="table-warning">
+                    <th scope="row">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault5" checked />
+                      </div>
+                    </th>
+                    <td>Rosa Morales</td>
+                    <td>Directora</td>
+                    <td>36</td>
+                    <td>Valencia</td>
+                    <td>
+                      <button type="button" class="btn btn-danger btn-sm px-3">
+                        <i class="fa fa-ellipsis-h"></i>
+                      </button>
+                    </td>
+                  </tr>
+                  <tr class="table-primary">
+                    <th scope="row">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault6" />
+                      </div>
+                    </th>
+                    <td>Catalina R.</td>
+                    <td>Senior Marketing</td>
+                    <td>43</td>
+                    <td>Alicante</td>
+                    <td>
+                      <button type="button" class="btn btn-danger btn-sm px-3">
+                        <i class="fa fa-check"></i>
+                      </button>
+                    </td>
+                  </tr>
+                  <tr class="table-warning">
+                    <th scope="row">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault7" checked />
+                      </div>
+                    </th>
+                    <td>Tatiana C.</td>
+                    <td>SEO</td>
+                    <td>19</td>
+                    <td>Murcia</td>
+                    <td>
+                      <button type="button" class="btn btn-danger btn-sm px-3">
+                        <i class="fa fa-ellipsis-h"></i>
+                      </button>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+  </div>
+
+
+
+
+
+  <!-- FOOTER -->
+  <footer class="d-flex flex-row justify-content-between align-items-center p-4 mt-5 footer">
+    <h4>Eniun.com</h4>
+    <p>Politica de Privacidad y cookies</p>
+  </footer>
+
+  <!--PARA FUNCIONALIDADES DE DROPDOWN-->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
+  <!--PARA FUNCIONALIDADES DE CARROUSEL-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+  </script>
+
+
+
+</body>
+
+</html>
